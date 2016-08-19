@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/OS/kbleds.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.5.0-23-generic/scripts/module-common.lds --build-id  -o /home/ubuntu/OS/kbleds.ko /home/ubuntu/OS/kbleds.o /home/ubuntu/OS/kbleds.mod.o
